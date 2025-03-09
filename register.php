@@ -25,7 +25,6 @@ if(isset($_POST['submit'])){
    }
 
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -44,7 +43,6 @@ if(isset($_POST['submit'])){
 
 </head>
 <body>
-
 
 
 <?php

@@ -77,7 +77,6 @@ if(isset($message)){
       <input type="submit" name="submit" value="login now" class="btn">
       <p>don't have an account? <a href="register.php">register now</a></p>
    </form>
-
 </div>
 
 </body>

@@ -52,9 +52,12 @@ if(isset($_POST['add_to_cart'])){
 <section class="home">
 
    <div class="content">
-      <h3>Hand Picked Book to your door.</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod? Reiciendis ut porro iste totam.</p>
-      <a href="about.php" class="white-btn">discover more</a>
+      <h3>Best Resin Art Products</h3>
+      <p>Discover the magic of resin art! Each piece is a unique masterpiece, 
+         bursting with vibrant colors and stunning patterns. Perfect for home decor or as a thoughtful gift, our resin creations add
+         a touch of elegance and charm to any space. 
+         Elevate your style with these eye-catching, one-of-a-kind treasures!.</p>
+      <a href="shop.php" class="white-btn">discover more</a>
    </div>
 
 </section>
@@ -73,7 +76,7 @@ if(isset($_POST['add_to_cart'])){
      <form action="" method="post" class="box">
       <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
       <div class="name"><?php echo $fetch_products['name']; ?></div>
-      <div class="price">$<?php echo $fetch_products['price']; ?>/-</div>
+      <div class="price">₹<?php echo $fetch_products['price']; ?>/-</div>
       <input type="number" min="1" name="product_quantity" value="1" class="qty">
       <input type="hidden" name="product_name" value="<?php echo $fetch_products['name']; ?>">
       <input type="hidden" name="product_price" value="<?php echo $fetch_products['price']; ?>">
@@ -116,7 +119,8 @@ if(isset($_POST['add_to_cart'])){
 
    <div class="content">
       <h3>have any questions?</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cumque exercitationem repellendus, amet ullam voluptatibus?</p>
+      <p>We'd love to hear from you!Whether you have questions, feedback, or need assistance, our team is here to help. Please fill out the form or reach out to us via email or phone. 
+         We aim to respond promptly to all inquiries.Thank you for connecting with us!</p>
       <a href="contact.php" class="white-btn">contact us</a>
    </div>
 
